@@ -1,0 +1,35 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Greeting -->
+<category>
+    <pattern>HELLO</pattern>
+    <template>Hello! Tell me how you feel: HAPPY, SAD, or ANGRY?</template>
+</category>
+
+<!-- Happy Mood -->
+<category>
+    <pattern>I AM HAPPY</pattern>
+    <template>🎶 Recommended songs: Happy - Pharrell, Best Day of My Life - American Authors</template>
+</category>
+
+<!-- Sad Mood -->
+<category>
+    <pattern>I AM SAD</pattern>
+    <template>🎶 Recommended songs: Someone Like You - Adele, Fix You - Coldplay</template>
+</category>
+
+<!-- Angry Mood -->
+<category>
+    <pattern>I AM ANGRY</pattern>
+    <template>🎶 Recommended songs: In the End - Linkin Park, Smells Like Teen Spirit - Nirvana</template>
+</category>
+
+<!-- Neutral Mood -->
+<category>
+    <pattern>NEUTRAL</pattern>
+    <template>🎶 Recommended songs: Let It Be - The Beatles, Counting Stars - OneRepublic</template>
+</category>
+
+</aiml>
+
+
